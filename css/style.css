@@ -218,7 +218,7 @@ img {
 @media screen and (max-width:767px) {
   .nav__menu {
     position: fixed;
-    bottom: -100%;
+    left: 0;
     width: 100%;
     background-color: var(--body-color);
     padding: 2rem 1.5rem 4rem;
@@ -366,6 +366,7 @@ img {
   color: #fff;
   padding: 1rem;
   border-radius: 2.5rem;
+  border: none;
   font-weight: var(--font-medium);
 }
 
